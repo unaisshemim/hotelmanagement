@@ -1,0 +1,48 @@
+
+
+.main-screen{
+  
+   background-image: url("https://wallpaperaccess.com/full/774032.jpg") ; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  transition: 1s;
+  background-color: blue;
+  padding-top: 300px;
+  padding-bottom: 800px;
+  
+  
+  
+        .contents{
+          background-color: rgb(7, 7, 7,0.5);
+          width: 60vh;
+          height: 400px;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          flex-direction: column;
+          color: white;
+          border-radius: 10px;
+          .title{
+            font-size: 90px;
+            text-align: center;
+          }
+          .slotButton{
+            button{
+              padding:20px;
+              font-size: 30px;
+              border-radius: 10px;
+              text-transform: capitalize;
+              background-color: rgba(248, 248, 248, 0.971);
+              color:black;
+              font-weight: 600;
+
+            }
+          }
+        }
+    }
+  

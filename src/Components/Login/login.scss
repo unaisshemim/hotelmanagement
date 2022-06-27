@@ -1,0 +1,72 @@
+.login{
+    background-color: rgb(236, 231, 231);
+    padding: 189px ;
+   display: flex;
+    align-items: center;
+    justify-content: center ;
+    
+    .loginContainer{
+        background-color: #fff;
+        width: 90vh;
+        height: 60vh;
+        display: flex;
+        border-radius: 10px;
+        .loginDetails{
+            flex: 1;
+            padding: 20px;
+          
+            .title{
+                    text-transform: capitalize;
+                    font-size: 30px;
+                    font-weight: 500;
+            }
+            .details{
+                display: flex;
+                flex-direction: column;
+                line-height: 3rem;
+            
+                
+                .email{
+                    display: flex;
+                    flex-direction: column;
+                }
+                .password{
+                    display: flex;
+                    flex-direction: column;
+
+                }
+                .forgot{
+                    display: flex;
+                    justify-content: flex-end;
+                }
+                .Buttons{
+                    display: flex;
+                    justify-content: space-around;
+                    align-items: center;
+                    button{
+                        padding:0 40px 5px 40px;
+                        border: none ;
+                    }
+
+                }.otherLogins{
+                        padding-top: 20px;
+                        display: flex;
+                        align-items: center;
+                        justify-content: center;
+                        a{
+                            text-decoration: none;
+                            color:red
+                        }
+                        
+                }
+            }
+        }
+        .hotelPic{
+            flex:1;
+            background-image: url("https://wallpaper.dog/large/5458126.jpg");
+            background-size: cover;
+            background-repeat: no-repeat;
+
+        }
+    }
+}
